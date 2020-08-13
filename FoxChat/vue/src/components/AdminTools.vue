@@ -69,6 +69,9 @@ export default {
             showAddTopic: false,
             showAddTopic2: false,
             showAddTopic3: false,
+            showAddTopic4: false,
+            showAddTopic5: false,
+            showAddTopic6: false,
         }
     },
 }

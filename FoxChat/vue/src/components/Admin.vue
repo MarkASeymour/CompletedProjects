@@ -1,6 +1,7 @@
 <template>
     <div id='admin-page'>
         <div id='admin-menus'>
+            <p>Topics</p>
             <div class='admin-menu'>
                 <div class='admin-menu-button' @click="showTopicsSeached = !showTopicsSeached"> 
                     <div class='admin-button-text'>Most Searched Topics</div> 
@@ -9,6 +10,7 @@
                 </div>
                 <div class='chart' v-if="showTopicsSeached"><topics-searched-chart /></div>
             </div>
+            <p>Keywords</p>
             <div class='admin-menu'>
                 <div class='admin-menu-button' @click="showKeywordsSeached = !showKeywordsSeached">
                     <div class='admin-button-text'>Most Searched Keywords</div>  
@@ -17,6 +19,7 @@
                 </div>
                 <div class='chart' v-if="showKeywordsSeached"><topics-searched-chart /></div>
             </div>
+            <p>Jobs</p>
             <div class='admin-menu'>
                 <div class='admin-menu-button' @click="showJobsSeached = !showJobsSeached">
                     <div class='admin-button-text'>Most Searched Jobs</div>  
